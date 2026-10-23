@@ -1,0 +1,171 @@
+[package]
+name = "algorithms"
+version = "0.1.0"
+edition = "2021"
+description = "Classic algorithms, one standalone binary each"
+license = "MIT"
+
+# Each algorithm is a standalone program: cargo run --release --bin bubble_sort
+
+[[bin]]
+name = "a_star_algorithm"
+path = "a_star_algorithm.rs"
+
+[[bin]]
+name = "activity_selection"
+path = "activity_selection.rs"
+
+[[bin]]
+name = "avl_tree"
+path = "avl_tree.rs"
+
+[[bin]]
+name = "bellman_ford_algorithm"
+path = "bellman_ford_algorithm.rs"
+
+[[bin]]
+name = "binary_search"
+path = "binary_search.rs"
+
+[[bin]]
+name = "binary_search_tree"
+path = "binary_search_tree.rs"
+
+[[bin]]
+name = "breadth_first_search"
+path = "breadth_first_search.rs"
+
+[[bin]]
+name = "bubble_sort"
+path = "bubble_sort.rs"
+
+[[bin]]
+name = "counting_sort"
+path = "counting_sort.rs"
+
+[[bin]]
+name = "cycle_detection"
+path = "cycle_detection.rs"
+
+[[bin]]
+name = "depth_first_search"
+path = "depth_first_search.rs"
+
+[[bin]]
+name = "dijkstras_algorithm"
+path = "dijkstras_algorithm.rs"
+
+[[bin]]
+name = "edit_distance"
+path = "edit_distance.rs"
+
+[[bin]]
+name = "euclidean_algorithm"
+path = "euclidean_algorithm.rs"
+
+[[bin]]
+name = "exponential_search"
+path = "exponential_search.rs"
+
+[[bin]]
+name = "fibonacci_sequence"
+path = "fibonacci_sequence.rs"
+
+[[bin]]
+name = "floyd_warshall_algorithm"
+path = "floyd_warshall_algorithm.rs"
+
+[[bin]]
+name = "heap_sort"
+path = "heap_sort.rs"
+
+[[bin]]
+name = "insertion_sort"
+path = "insertion_sort.rs"
+
+[[bin]]
+name = "interpolation_search"
+path = "interpolation_search.rs"
+
+[[bin]]
+name = "jump_search"
+path = "jump_search.rs"
+
+[[bin]]
+name = "knapsack_problem"
+path = "knapsack_problem.rs"
+
+[[bin]]
+name = "kosaraju_scc"
+path = "kosaraju_scc.rs"
+
+[[bin]]
+name = "kruskals_algorithm"
+path = "kruskals_algorithm.rs"
+
+[[bin]]
+name = "linear_search"
+path = "linear_search.rs"
+
+[[bin]]
+name = "longest_common_subsequence"
+path = "longest_common_subsequence.rs"
+
+[[bin]]
+name = "longest_increasing_subsequence"
+path = "longest_increasing_subsequence.rs"
+
+[[bin]]
+name = "lowest_common_ancestor"
+path = "lowest_common_ancestor.rs"
+
+[[bin]]
+name = "matrix_chain_multiplication"
+path = "matrix_chain_multiplication.rs"
+
+[[bin]]
+name = "merge_sort"
+path = "merge_sort.rs"
+
+[[bin]]
+name = "modular_exponentiation"
+path = "modular_exponentiation.rs"
+
+[[bin]]
+name = "n_queens"
+path = "n_queens.rs"
+
+[[bin]]
+name = "prims_algorithm"
+path = "prims_algorithm.rs"
+
+[[bin]]
+name = "quick_sort"
+path = "quick_sort.rs"
+
+[[bin]]
+name = "selection_sort"
+path = "selection_sort.rs"
+
+[[bin]]
+name = "sieve_of_eratosthenes"
+path = "sieve_of_eratosthenes.rs"
+
+[[bin]]
+name = "sudoku_solver"
+path = "sudoku_solver.rs"
+
+[[bin]]
+name = "tarjan_scc"
+path = "tarjan_scc.rs"
+
+[[bin]]
+name = "ternary_search"
+path = "ternary_search.rs"
+
+[[bin]]
+name = "tree_traversals"
+path = "tree_traversals.rs"
+
+[profile.release]
+opt-level = 3

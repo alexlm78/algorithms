@@ -1,0 +1,43 @@
+# EditorConfig for this repository: https://editorconfig.org
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# --- Languages in impl/ ---
+
+[*.rs]
+indent_size = 4
+max_line_length = 100
+
+[*.java]
+indent_size = 4
+max_line_length = 100
+
+[*.py]
+indent_size = 4
+max_line_length = 88
+
+[{*.go,go.mod}]
+indent_style = tab
+indent_size = 4
+tab_width = 4
+
+[*.{ts,tsx,js,mjs,cjs}]
+indent_size = 2
+
+# --- Web app, config and docs ---
+
+[*.{html,css,json,yaml,yml,toml}]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
+
+[{Makefile,GNUmakefile,*.mk}]
+indent_style = tab

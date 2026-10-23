@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build output
+web/dist/
+impl/bin/
+impl/rust/target/
+impl/rust/Cargo.lock
+impl/typescript/dist/
+impl/typescript/package-lock.json
+*.class
+__pycache__/
+*.pyc
+
+# Tooling
+.taste-skill/
+graphify-out/
+.claude/
+.vite/
+*.log
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
