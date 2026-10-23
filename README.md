@@ -1,5 +1,7 @@
 # Algorithms
 
+**English** · [Español](README_es.md)
+
 40 classic algorithms implemented in **Rust, Go, Java, Python and TypeScript**, plus an interactive web app that shows how they work and how they compare.
 
 Repository: <https://github.com/alexlm78/algorithms> · License: [MIT with attribution](LICENSE)
@@ -74,7 +76,7 @@ Naming: a Rust file `bubble_sort.rs` becomes `bubble_sort.py`, `bubble_sort.ts`,
 
 ## Contributing
 
-1. Add `impl/rust/<id>.rs` and its entry in `impl/rust/Cargo.toml`.
+1. Add `impl/rust/<id>.rs` and its `[[bin]]` entry in `impl/rust/Cargo.toml`.
 2. Add the four ports using the naming above, matching the Rust output.
 3. Add the algorithm to `web/src/registry.ts` (names and summaries in English and Spanish).
 
@@ -83,11 +85,3 @@ Naming: a Rust file `bubble_sort.rs` becomes `bubble_sort.py`, `bubble_sort.ts`,
 Released under the [MIT License](LICENSE) with one explicit condition: **any reuse, redistribution or derivative work must credit this project**, "alexlm78/algorithms" and its repository link, in its documentation or somewhere equally visible.
 
 The historical pictures in `web/assets/` are third-party works under their own licenses (CC BY, CC BY-SA, public domain). Their credits are in [`web/assets/credits.json`](web/assets/credits.json) and in the web app footer; keep them if you reuse the pictures.
-
-## Resumen en español
-
-40 algoritmos clásicos en **Rust, Go, Java, Python y TypeScript**, más una aplicación web interactiva (Algorithms Lab) con visualizador paso a paso, carreras entre métodos y benchmarks en vivo, en inglés y español.
-
-- Aplicación web: `cd web && npm install && npm run dev`. Más detalles en [`web/README.md`](web/README.md).
-- Implementaciones: `cd impl && make` compila todo; `make run L=go A=bubble_sort` ejecuta un algoritmo. Python no se compila, solo se ejecuta.
-- Licencia: MIT. Al reutilizar el código hay que nombrar al proyecto original, "alexlm78/algorithms".
