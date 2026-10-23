@@ -16,6 +16,7 @@ __pycache__/
 .taste-skill/
 graphify-out/
 .claude/
+.playwright/
 .vite/
 *.log
 

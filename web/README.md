@@ -1,5 +1,7 @@
 # Algorithms Lab
 
+**English** · [Español](README_es.md)
+
 Interactive web app for the algorithms in this repository. English first, Spanish one click away: both languages show in the top bar with their flag, the active one highlighted.
 
 ```
