@@ -18,6 +18,7 @@ graphify-out/
 .claude/
 .playwright/
 .vite/
+.serena/
 *.log
 
 # OS / editor
